@@ -26,6 +26,7 @@ Features Left to Implement
 Another feature idea
 Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+wireframe=https://xd.adobe.com/view/8870e962-a6ea-401f-9661-7b5208968cc4-dd23/
 
 This project uses CSS,HTML and Javascript lanagauages
 
