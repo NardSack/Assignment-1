@@ -1,9 +1,27 @@
 #socialmediacontainer
 {display:flex;
 justify-content: left;
-background-color: lightblue;
+position : fixed;
+top: 0;
+width: 100px;
+transition : top 0.3s;
+
 }
+
+    /* background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s; */
+
+
 div img {
     display:block;
     width :50px;
 height: 50px;}
+#socialmediacontainer a 
+{float: left;
+    padding: 15px;
+    background-color: lightcoral;
+}

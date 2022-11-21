@@ -1,4 +1,5 @@
 # Assignment-1
+
 this is my assignment 1 website
 
 My website is about the Japanese singing group Royal Scandal
@@ -8,8 +9,8 @@ as such as a user of this website, i would like to be able to run it in any devi
 Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-Existing Features
--
+## Existing Features
+
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 Features Left to Implement
@@ -37,4 +38,8 @@ Media
 The photos used in this site were obtained from ...
 Acknowledgements
 I received inspiration for this project from https://www.acdc.com/ and https://royal-scandal.com/en/
+where i got my icon
 https://icons8.com/
+https://en.maisfontes.com/font-family/download-gloucester-mt-fonts
+
+note to self i need to downnload the icons again but in different color for hover effect
