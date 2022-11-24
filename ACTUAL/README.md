@@ -40,6 +40,7 @@ Acknowledgements
 I received inspiration for this project from https://www.acdc.com/ and https://royal-scandal.com/en/
 where i got my icon
 https://icons8.com/
+my fonts
 https://en.maisfontes.com/font-family/download-gloucester-mt-fonts
 
 note to self i need to downnload the icons again but in different color for hover effect
