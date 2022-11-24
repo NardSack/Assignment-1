@@ -1,5 +1,7 @@
+body
+{margin-left: 0 ;}
 #socialmediacontainer
-{display:flexbox;
+{
 justify-content: space-between;
 
 position : fixed;
