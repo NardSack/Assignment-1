@@ -1,12 +1,18 @@
 #socialmediacontainer
-{display:flex;
-justify-content: left;
+{display:flexbox;
+justify-content: space-between;
+
 position : fixed;
 top: 0;
-width: 100px;
+width: 100%;
 transition : top 0.3s;
+background-color: darkgoldenrod;
+height: 80px;
 
 }
+#navibox 
+{display:flex;
+flex-grow: 1;}
 
     /* background-color: #333;
     position: fixed;
@@ -14,14 +20,64 @@ transition : top 0.3s;
     width: 100%;
     display: block;
     transition: top 0.3s; */
+.emptyspace
+{width: 5%;
+flex-grow: 10;}
 
+#iconslink img {
+    display:flex;
+    width :auto;
+height: 50px;
 
-div img {
-    display:block;
-    width :50px;
-height: 50px;}
-#socialmediacontainer a 
-{float: left;
-    padding: 15px;
-    background-color: lightcoral;
 }
+
+#iconslink a {
+    float: left;
+    background-color: lightcoral;
+    
+}
+#iconslink
+{justify-content: flex-start;}
+
+#bandlogo a 
+{
+    /* margin-right: 50%; */
+    /* margin-left:30% ; */
+    display: flex;
+    
+    float: left ;
+    background-color: cyan;
+    
+}
+
+#bandlogo img
+{ 
+   
+    display: flex;
+    height: 50px;
+    width: auto;
+    background-color: aliceblue;
+
+}
+#bandlogo
+{justify-content: flex-start;}
+#navibutton a 
+{
+    display:flex;
+    float: right;
+
+}
+#navibutton img 
+{
+    display:flex;
+    background-color: lightcoral;
+    height: 50px;
+    width:auto;
+
+}
+#navibutton 
+{justify-content: flex-end;}
+#fillercontent 
+{
+    display :flex;
+    width: 150px;}

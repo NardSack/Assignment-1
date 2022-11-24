@@ -42,5 +42,8 @@ where i got my icon
 https://icons8.com/
 my fonts
 https://en.maisfontes.com/font-family/download-gloucester-mt-fonts
-
+shop link
+https://royalscandal.booth.pm/
 note to self i need to downnload the icons again but in different color for hover effect
+video links for background
+https://www.youtube.com/watch?v=GHx5U8siSKI
