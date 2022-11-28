@@ -25,7 +25,7 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 20000); // Change image every 20 seconds
+  // setTimeout(showSlides, 20000); // Change image every 20 seconds
 }
 
 function plusSlides(position) {

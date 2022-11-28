@@ -14,8 +14,8 @@ In this section, you should go over the different parts of your project, and des
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 Features Left to Implement
--link to shop
--link to all the social media
+-link to shop (done)
+-link to all the social media (done)
 -episode html slide with synopsis
 -setting section where can go to any of the created page and change lanaguage between english and japanese
 -introduction of each memeber and their personal social media and their perosonal website

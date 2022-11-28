@@ -16,7 +16,8 @@ z-index: 100;
 }
 #navibox 
 {display:flex;
-flex-grow: 1;}
+flex-grow: 1;
+justify-content: space-between;}
 
     /* background-color: #333;
     position: fixed;
@@ -24,9 +25,7 @@ flex-grow: 1;}
     width: 100%;
     display: block;
     transition: top 0.3s; */
-.emptyspace
-{width: 5%;
-flex-grow: 10;}
+
 
 #iconslink img {
     display:flex;
@@ -37,7 +36,7 @@ height: 50px;
 
 #iconslink a {
     float: left;
-    background-color: lightcoral;
+    background-color: white;
     
 }
 #iconslink
@@ -51,8 +50,9 @@ overflow: hidden;}
     display: flex;
     
     float: left ;
+    margin-top: 10px;
     /* background-color: cyan; */
-    
+     
 }
 
 #bandlogo img
@@ -75,7 +75,7 @@ overflow: hidden;}
 #navibutton img 
 {
     display:flex;
-    background-color: lightcoral;
+    background-color: white;
     height: 50px;
     width:auto;
 
@@ -141,7 +141,8 @@ height: auto;}
     line-height:0;
 }
 #normalcontent
-{background: #fff;}
+{background: rgb(0, 0, 0);
+color: white;}
 
 /* slide show */
 
@@ -155,8 +156,15 @@ height: auto;}
 }
 
 .mySlides {
-	display: none
+	display: none;
 }
+.slidealign 
+{
+  width: 100%;
+  height: auto;
+  display: flexbox;
+}
+
 
 .slideshow-container {
 	width: 1200px;
@@ -251,5 +259,20 @@ height: auto;}
 
 #normalcontent #slide .slideshow-container 
 {
-  width:50%;
+  width:100%;
+  margin-left: 0px;
 }
+
+.mySlides p {background-color: cyan;
+margin:0;
+display: flex;
+
+/* width: 50%; */
+}
+.mySlides p img {
+  height: 500px;
+  width: auto;
+}
+
+#members {display: flexbox;}
+#members img {display: flex;}
