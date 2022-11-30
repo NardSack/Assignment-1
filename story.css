@@ -1,0 +1,113 @@
+#setting {
+    width: 100%;
+    height: 1000px;
+    position: fixed;
+    right:0 ;
+    top: -1000px;
+    background: black ;
+    opacity: 80%;
+    z-index: 2;
+    transition: 0.5s;
+  
+  }
+  nav {padding: 210px;}
+  nav ul {border: #717171 solid;}
+  nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    }
+  
+
+    body
+    {margin-left: 0 ;
+    margin-right: 0;
+    background-color: rgb(255, 8, 8);}
+    #socialmediacontainer
+    {
+    justify-content: space-between;
+    
+    position : fixed;
+    top: 0;
+    width: 100%;
+    transition : top 0.3s;
+    /* background-color: black; */
+    height: 50px;
+    z-index: 100;
+    
+    }
+    #navibox 
+    {display:flex;
+    flex-grow: 1;
+    justify-content: space-between;}
+    
+        /* background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: block;
+        transition: top 0.3s; */
+    
+    
+    #iconslink img {
+        display:flex;
+        width :auto;
+    height: 50px;
+    
+    }
+    
+    #iconslink a {
+        float: left;
+        background-color: white;
+        
+    }
+    #iconslink{
+    justify-content: space-around;
+    overflow: hidden;}
+    
+    #bandlogo a 
+    {
+        /* margin-right: 50%; */
+        /* margin-left:30% ; */
+        display: flex;
+        
+        float: left ;
+        margin-top: 10px;
+        /* background-color: cyan; */
+         
+    }
+    
+    #bandlogo img
+    { 
+       
+        display: flex;
+        height: 50px;
+        width: auto;
+        /* background-color: aliceblue; */
+    
+    }
+    #bandlogo
+    {justify-content: flex-start;}
+    #navibutton a 
+    {
+        display:flex;
+        float: right;
+    
+    }
+    #navibutton img 
+    {
+        display:flex;
+        background-color: white;
+        height: 50px;
+        width:auto;
+    
+    }
+    #navibutton 
+    {justify-content: flex-end;}
+    #fillercontent 
+    {
+        display :flex;
+        width: 20px;}

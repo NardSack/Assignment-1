@@ -1,0 +1,13 @@
+#blue{background-color: blue;
+color: white;
+display: flex;
+width: 40%;
+float: right;}
+#black {background-color: black;
+    color: white;
+    display: flex;}
+#yellow {background-color: yellow;
+    color: white;
+    width: 40%;
+    display: flex;}
+.flexcontainer {display: flexbox;}
