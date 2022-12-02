@@ -26,7 +26,9 @@
     body
     {margin-left: 0 ;
     margin-right: 0;
-    background-color: rgb(255, 8, 8);}
+    box-sizing: border-box;
+    /* background-color: rgb(255, 8, 8); */
+  }
     #socialmediacontainer
     {
     justify-content: space-between;
@@ -152,7 +154,15 @@
           {
             padding: 0%;
           }
-          
+
+          #instrumental {
+          background: url('https://royal-scandal.com/images/contents/bg_story.png') repeat;
+          }
+
+
+
+
+
           @media screen and (max-width : 1400px){
             #linkpage {padding: 80px 0px 90px;
             }
