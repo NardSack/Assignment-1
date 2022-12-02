@@ -47,3 +47,6 @@ https://royalscandal.booth.pm/
 note to self i need to downnload the icons again but in different color for hover effect
 video links for background
 https://www.youtube.com/watch?v=GHx5U8siSKI
+https://www.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_12804210.htm#query=dark%20shape&position=12&from_view=keyword
+
+https://www.pinterest.com/pin/171559067047825158/

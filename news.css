@@ -69,14 +69,20 @@
     
     #bandlogo a 
     {
-        /* margin-right: 50%; */
-        /* margin-left:30% ; */
+    
         display: flex;
         
         float: left ;
         margin-top: 10px;
-        /* background-color: cyan; */
-         
+        background-color: rgba(92, 94, 94,0.5);
+    }
+    #bandlogo a:hover
+    {
+        display: flex;
+        
+        float: left ;
+        margin-top: 10px;
+        background-color: rgba(253, 253, 253, 0.5);
     }
     
     #bandlogo img
@@ -110,3 +116,57 @@
     {
         display :flex;
         width: 20px;}
+
+
+
+
+        /* links */
+        .contacts ul {
+            list-style-type: none;
+          /* display: flex; */
+          }
+          
+          #linkpage {
+            background-image: url("https://royal-scandal.com/images/bg_footer.jpg") ;
+            background-size: cover;
+            z-index: 10;
+            position: relative;
+            padding: 100px 40px 110px;
+            max-width: none;
+            margin: 0 auto;
+            display: block;
+          }
+          #individuallink 
+          {
+            position: relative;
+            padding: 5px 0;
+            margin: 0 auto;
+            max-width: 800px;
+          }
+          
+          
+          .contacts 
+          {
+            display: flex;
+            justify-content: center;
+          }
+          .contacts ul 
+          {
+            padding: 0%;
+          }
+          
+          @media screen and (max-width : 1400px){
+            #linkpage {padding: 80px 0px 90px;
+            }
+            #individuallink 
+            {
+              width: fit-content;
+            }
+            #individuallink img
+            {
+              width: 300px;
+              height: auto;
+              /* max-width: 400px; */
+            }
+            .contacts {width: fit-content;}
+        }          

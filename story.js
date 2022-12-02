@@ -4,7 +4,7 @@ var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("socialmediacontainer").style.top = "0";
   } else {
-    document.getElementById("socialmediacontainer").style.top = "-100px";
+    document.getElementById("socialmediacontainer").style.top = "-150px";
   }
   prevScrollpos = currentScrollPos;
 }

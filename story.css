@@ -1,113 +1,255 @@
-#setting {
-    width: 100%;
-    height: 1000px;
-    position: fixed;
-    right:0 ;
-    top: -1000px;
-    background: black ;
-    opacity: 80%;
-    z-index: 2;
-    transition: 0.5s;
-  
-  }
-  nav {padding: 210px;}
-  nav ul {border: #717171 solid;}
-  nav ul li {
-    list-style: none;
-    margin: 50px 20px;
-  }
-  nav ul li a{
-    text-decoration: none;
-    color:#fff;
-    }
+
   
 
     body
-    {margin-left: 0 ;
-    margin-right: 0;
-    background-color: rgb(255, 8, 8);}
-    #socialmediacontainer
-    {
-    justify-content: space-between;
+    {margin: 0;
+    position: relative;
+    top: -1rem;
+    background-color: black;
     
-    position : fixed;
-    top: 0;
+}
+
+#normalcontent
+{
     width: 100%;
-    transition : top 0.3s;
-    /* background-color: black; */
-    height: 50px;
-    z-index: 100;
-    
+    background-color: black;
+    background-image:url("https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1410.jpg?t=st=1669970279~exp=1669970879~hmac=94a849e8a0a35de1acca8ec0ae17d7c2ef5aad0e2461cd3e14b0334dc5dfb467") ;
+    background-repeat: repeat;
+    background-size: 100%;
+color: black;}
+
+
+
+
+
+        #setting {
+            width: 100%;
+            height: 1000px;
+            position: fixed;
+            right:0 ;
+            top: -1000px;
+            background: black ;
+            opacity: 80%;
+            z-index: 2;
+            transition: 0.5s;
+          
+          }
+          nav {
+        align-content: space-around;
     }
-    #navibox 
-    {display:flex;
-    flex-grow: 1;
-    justify-content: space-between;}
-    
-        /* background-color: #333;
-        position: fixed;
-        top: 0;
-        width: 100%;
+          nav ul {border: #717171 solid;
+        margin: 10% 25%;}
+          nav ul li {
+            list-style: none;
+            margin: 70px 20px;
+          }
+          nav ul li a{
+            text-decoration: none;
+            color:#fff;
+            }
+          #socialmediacontainer
+          {
+          justify-content: space-between;
+          
+          position : fixed;
+          top: 0;
+          width: 100%;
+          transition : top 0.3s;
+          /* background-color: black; */
+          height: 50px;
+          z-index: 100;
+          
+          }
+          #navibox 
+          {display:flex;
+          flex-grow: 1;
+          justify-content: space-between;}
+          
+        
+          
+          
+          #iconslink img {
+              display:flex;
+              width :auto;
+          height: 50px;
+          
+          }
+          
+          #iconslink a {
+              float: left;
+              background-color: white;
+              
+          }
+          #iconslink{
+          justify-content: space-around;
+          overflow: hidden;}
+          
+          #bandlogo a 
+          {
+          
+              display: flex;
+              
+              float: left ;
+              margin-top: 10px;
+              background-color: rgba(92, 94, 94,0.5);
+          }
+          #bandlogo a:hover
+          {
+              display: flex;
+              
+              float: left ;
+              margin-top: 10px;
+              background-color: rgba(253, 253, 253, 0.5);
+          }
+          
+          #bandlogo img
+          { 
+             
+              display: flex;
+              height: 50px;
+              width: auto;
+              /* background-color: aliceblue; */
+          
+          }
+          #bandlogo
+          {justify-content: flex-start;}
+          #navibutton a 
+          {
+              display:flex;
+              float: right;
+          
+          }
+          #navibutton img 
+          {
+              display:flex;
+              background-color: white;
+              height: 50px;
+              width:auto;
+          
+          }
+          #navibutton 
+          {justify-content: flex-end;}
+          #fillercontent 
+          {
+              display :flex;
+              width: 20px;}
+
+        #normalcontent ul {
+            padding:0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #normalcontent li 
+        {
+            width: fit-content;
+            padding: 100px;
+            /* background-color: blue; */
+        }
+          #normalcontent img{width: auto;
+        /* margin: 25% 0; */
+        
+    height: 100px;
+background-color: red;}
+
+#normalcontent li h1 
+{background-color: yellow;
+position: relative;
+top: -95px;
+left: 110px;
+width:fit-content}
+
+
+
+
+    /* links */
+    .contacts ul {
+        list-style-type: none;
+      /* display: flex; */
+      }
+      
+      #linkpage {
+        background-image: url("https://royal-scandal.com/images/bg_footer.jpg") ;
+        background-size: cover;
+        z-index: 10;
+        position: relative;
+        padding: 100px 40px 110px;
+        max-width: none;
+        margin: 0 auto;
         display: block;
-        transition: top 0.3s; */
-    
-    
-    #iconslink img {
-        display:flex;
-        width :auto;
-    height: 50px;
-    
-    }
-    
-    #iconslink a {
-        float: left;
-        background-color: white;
-        
-    }
-    #iconslink{
-    justify-content: space-around;
-    overflow: hidden;}
-    
-    #bandlogo a 
-    {
-        /* margin-right: 50%; */
-        /* margin-left:30% ; */
+      }
+      #individuallink 
+      {
+        position: relative;
+        padding: 5px 0;
+        margin: 0 auto;
+        max-width: 800px;
+      }
+      
+      
+      .contacts 
+      {
         display: flex;
+        justify-content: center;
+      }
+      .contacts ul 
+      {
+        padding: 0%;
+      }
+      
+      @media screen and (max-width : 1400px){
+        #linkpage {padding: 140px 0px 90px;
+            width: 100%;
+        }
+        #individuallink 
+        {
+          width: fit-content;
+        }
+        #individuallink img
+        {
+          width: 300px;
+          height: auto;
+          /* max-width: 400px; */
+        }
+        .contacts {width: fit-content;}
+    }          
+
+
+
+
+
+
+
+    @media screen and (max-width : 1400px){
+
         
-        float: left ;
-        margin-top: 10px;
-        /* background-color: cyan; */
-         
-    }
-    
-    #bandlogo img
-    { 
-       
-        display: flex;
-        height: 50px;
-        width: auto;
-        /* background-color: aliceblue; */
-    
-    }
-    #bandlogo
-    {justify-content: flex-start;}
-    #navibutton a 
+        nav {
+            width: 50%;
+            margin: 0;
+            padding: 100px;
+            /* justify-content: space-around; */
+            }
+            nav ul {border: #717171 solid;
+                margin: 0;}
+    #socialmediacontainer
+    {width: 85%;}
+    #normalcontent 
     {
-        display:flex;
-        float: right;
-    
+        width: 100%;
     }
-    #navibutton img 
+    #normalcontent ul 
     {
-        display:flex;
-        background-color: white;
-        height: 50px;
-        width:auto;
-    
+        padding-top: 100px;
     }
-    #navibutton 
-    {justify-content: flex-end;}
-    #fillercontent 
-    {
-        display :flex;
-        width: 20px;}
+    #iconslink a {width: fit-content;
+        height: fit-content;}
+        #iconslink img
+        {
+          width: 40px; height: auto;
+        }
+    }
+
+
+
+
+    /* https://i.pinimg.com/originals/a8/ab/82/a8ab82687770752fba2416738aa4ec5c.jpg */

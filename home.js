@@ -5,7 +5,7 @@ var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("socialmediacontainer").style.top = "0";
   } else {
-    document.getElementById("socialmediacontainer").style.top = "-100px";
+    document.getElementById("socialmediacontainer").style.top = "-200px";
   }
   prevScrollpos = currentScrollPos;
 }
@@ -25,7 +25,7 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 20000); // Change image every 20 seconds
+  setTimeout(showSlides, 10000); // Change image every 10 seconds
 }
 
 function plusSlides(position) {
