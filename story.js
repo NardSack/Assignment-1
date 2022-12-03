@@ -22,3 +22,10 @@ menuBtn.onclick = function(){
       setting.style.top ="-1000px";
     }
 }
+
+
+// audio volume control
+document.getElementById('episode 10').volume = 0.2 ;
+document.getElementById('episode 11').volume = 0.2 ;
+document.getElementById('episode 12').volume = 0.2 ;
+  

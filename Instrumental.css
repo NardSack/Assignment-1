@@ -1,124 +1,126 @@
 #setting {
-    width: 100%;
-    height: 1000px;
-    position: fixed;
-    right:0 ;
-    top: -1000px;
-    background: black ;
-    opacity: 80%;
-    z-index: 2;
-    transition: 0.5s;
-  
+  width: 100%;
+  height: 1000px;
+  position: fixed;
+  right:0 ;
+  top: -1000px;
+  background: black ;
+  opacity: 80%;
+  z-index: 2;
+  transition: 0.5s;
+
+}
+nav {
+align-content: space-around;
+}
+nav ul {border: #717171 solid;
+margin: 10% 25%;}
+nav ul li {
+  list-style: none;
+  margin: 70px 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color:#fff;
   }
-  nav {padding: 210px;}
-  nav ul {border: #717171 solid;}
-  nav ul li {
-    list-style: none;
-    margin: 50px 20px;
-  }
-  nav ul li a{
-    text-decoration: none;
-    color:#fff;
-    }
-  
+#socialmediacontainer
+{
+justify-content: space-between;
+
+position : fixed;
+top: 0;
+width: 100%;
+transition : top 0.3s;
+/* background-color: black; */
+height: 50px;
+z-index: 100;
+
+}
+#navibox 
+{display:flex;
+flex-grow: 1;
+justify-content: space-between;
+width: 100%;}
 
 
-    body
-    {margin-left: 0 ;
-    margin-right: 0;
-    box-sizing: border-box;
-    /* background-color: rgb(255, 8, 8); */
-  }
-    #socialmediacontainer
-    {
-    justify-content: space-between;
+
+
+#iconslink img {
+    display:flex;
+    width :auto;
+height: 50px;
+
+}
+
+#iconslink a {
+    float: left;
+    background-color: white;
     
-    position : fixed;
-    top: 0;
-    width: 100%;
-    transition : top 0.3s;
-    /* background-color: black; */
+}
+#iconslink{
+justify-content: space-around;
+overflow: hidden;}
+
+#bandlogo a 
+{
+
+    display: flex;
+    
+    float: left ;
+    margin-top: 10px;
+    background-color: rgba(92, 94, 94,0.5);
+}
+#bandlogo a:hover
+{
+    display: flex;
+    
+    float: left ;
+    margin-top: 10px;
+    background-color: rgba(253, 253, 253, 0.5);
+}
+
+#bandlogo img
+{ 
+   
+    display: flex;
     height: 50px;
-    z-index: 100;
-    
-    }
-    #navibox 
-    {display:flex;
-    flex-grow: 1;
-    justify-content: space-between;}
-    
-        /* background-color: #333;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        display: block;
-        transition: top 0.3s; */
-    
-    
-    #iconslink img {
-        display:flex;
-        width :auto;
+    width: auto;
+    /* background-color: aliceblue; */
+
+}
+#bandlogo
+{justify-content: flex-start;}
+#navibutton a 
+{
+    display:flex;
+    float: right;
+
+}
+#navibutton img 
+{
+    display:flex;
+    background-color: white;
     height: 50px;
-    
-    }
-    
-    #iconslink a {
-        float: left;
-        background-color: white;
-        
-    }
-    #iconslink{
-    justify-content: space-around;
-    overflow: hidden;}
-    
-    #bandlogo a 
-    {
-    
-        display: flex;
-        
-        float: left ;
-        margin-top: 10px;
-        background-color: rgba(92, 94, 94,0.5);
-    }
-    #bandlogo a:hover
-    {
-        display: flex;
-        
-        float: left ;
-        margin-top: 10px;
-        background-color: rgba(253, 253, 253, 0.5);
-    }
-    #bandlogo img
-    { 
-       
-        display: flex;
-        height: 50px;
-        width: auto;
-        /* background-color: aliceblue; */
-    
-    }
-    #bandlogo
-    {justify-content: flex-start;}
-    #navibutton a 
-    {
-        display:flex;
-        float: right;
-    
-    }
-    #navibutton img 
-    {
-        display:flex;
-        background-color: white;
-        height: 50px;
-        width:auto;
-    
-    }
-    #navibutton 
-    {justify-content: flex-end;}
-    #fillercontent 
-    {
-        display :flex;
-        width: 20px;}
+    width:auto;
+
+}
+#navibutton 
+{justify-content: flex-end;
+float: left;}
+#fillercontent 
+{
+    display :flex;
+    width: 20px;}
+
+
+
+
+
+
+
+
+    body {margin: 0;}
+
 
         /* links */
         .contacts ul {
@@ -160,11 +162,16 @@
           }
 
 
-
+          @media screen and (max-width : 1400px){
+          #iconslink img {width: 40px;
+          height: auto;}
+          #iconslink {width: fit-content;}
+          }
 
 
           @media screen and (max-width : 1400px){
-            #linkpage {padding: 80px 0px 90px;
+            #linkpage {padding: 140px 0px 90px;
+                width: 100%;
             }
             #individuallink 
             {
@@ -177,4 +184,17 @@
               /* max-width: 400px; */
             }
             .contacts {width: fit-content;}
+            #normalcontent li h1 {
+              left: 140px;
+              top: -85px;
+            }
+            #normalcontent ul li 
+            {
+              width: 100%;
+            }
+            #normalcontent img
+            {
+              width: 70%;
+            }
+            
         }          
