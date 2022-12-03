@@ -37,7 +37,7 @@ The text for section Y was copied from the Wikipedia article Z
 Media
 The photos used in this site were obtained from ...
 Acknowledgements
-I received inspiration for this project from https://www.acdc.com/ and https://royal-scandal.com/en/
+I received inspiration for this project from https://www.acdc.com/ and heavily from https://royal-scandal.com/en/ for the content
 where i got my icon
 https://icons8.com/
 my fonts
@@ -46,7 +46,10 @@ shop link
 https://royalscandal.booth.pm/
 note to self i need to downnload the icons again but in different color for hover effect
 video links for background
-https://www.youtube.com/watch?v=GHx5U8siSKI
+https://www.youtube.com/@Royal_Scandal
+
 https://www.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_12804210.htm#query=dark%20shape&position=12&from_view=keyword
 
 https://www.pinterest.com/pin/171559067047825158/
+
+https://kanon69.com/offvocal/

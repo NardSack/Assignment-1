@@ -22,6 +22,7 @@
     background-image:url("https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1410.jpg?t=st=1669970279~exp=1669970879~hmac=94a849e8a0a35de1acca8ec0ae17d7c2ef5aad0e2461cd3e14b0334dc5dfb467") ;
     background-repeat: repeat;
     background-size: 100%;
+    padding-bottom: 125px;
 color: black;}
 
 
@@ -177,6 +178,12 @@ top: -110px;
 left: 405px;
 width:fit-content}
 /* hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+hr 
+{
+  width: 100%;
+  border: goldenrod solid 1px;
+  
+}
 .text span 
 {
   font-size: 40px;
