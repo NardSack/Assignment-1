@@ -28,7 +28,7 @@ font-size: 30px;
 }
 .changes {border: solid gold 1px; }
 .form {margin-top : 10%;
-size: 100%;
+resize: 100%;
 justify-content: center;
 text-align: center;
 font-size: 30px;}
