@@ -19,11 +19,11 @@ Features Left to Implement
 feature ideas implemented
 Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-font used for html mention in XD wireframe file
-episode html slide with synopsis
-link to all the social media 
-link to shop 
-introduction of each memeber and their personal social media and their perosonal website
+-font used for html mention in XD wireframe file
+-episode html slide with synopsis
+-link to all the social media 
+-link to shop 
+-introduction of each memeber and their personal social media and their perosonal website
 
 wireframe=https://xd.adobe.com/view/8870e962-a6ea-401f-9661-7b5208968cc4-dd23/
 
