@@ -22,6 +22,15 @@ background-color: black;
   transition: 0.5s;
 
 }
+#loginpage{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  
+  background-color: white;
+  z-index: 99;
+  transition: 1s;
+}
 #listcontainer{display: flex;
 
 width: 50%;
@@ -29,11 +38,12 @@ float: left;
 }
 
 nav {padding: 110px 210px;}
-nav ul {border: #717171 solid;}
+nav ul {border: #717171 solid;
+margin-top: -5px;}
 nav ul li {
   list-style: none;
   width: 50%;
-  margin: 70px 20px;
+  margin: 50px 20px;
   font-size: 50px;
 }
 nav ul li a{

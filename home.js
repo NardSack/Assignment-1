@@ -46,7 +46,7 @@ function plusSlides(position) {
 
 var menuBtn = document.getElementById("menubutton")
 var setting = document.getElementById("setting")
-var menu = document.getElementById("menu")
+// var menu = document.getElementById("menu")
 
 setting.style.top ="-1000px";
 
@@ -58,3 +58,15 @@ menuBtn.onclick = function(){
       setting.style.top ="-1000px";
     }
 }
+var login = document.getElementById("account")
+var loginpage = document.getElementById("loginpage")
+loginpage.style.left = "-100%"
+login.onclick = function() {
+  if(loginpage.style.left =="-100%"){
+    loginpage.style.left= "0";
+  }
+  else{
+    loginpage.style.left ="-100%";
+   }
+}
+

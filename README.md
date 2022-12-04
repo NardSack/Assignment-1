@@ -1,7 +1,7 @@
 # Assignment-1
 
-this is my assignment 1 website
-
+this is my assignment 1 website 
+A FAN-MADE WEBSITE !!!!!!! Link to official website is here https://royal-scandal.com/en/
 My website is about the Japanese singing group Royal Scandal
 all of Royal Scandal music videos and songs are interconnected to each story in some way or another. One can say that they are making a whole story that is expressed by each of their original music songs.
 as such as a user of this website, i would like to be able to run it in any device
@@ -14,19 +14,17 @@ In this section, you should go over the different parts of your project, and des
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 Features Left to Implement
--link to shop (done)
--link to all the social media (done)
--episode html slide with synopsis
 -setting section where can go to any of the created page and change lanaguage between english and japanese
--introduction of each memeber and their personal social media and their perosonal website
--css design
--font used for html mention in XD wireframe file
--implenting java to html and css
--cover function
 
-Another feature idea
+feature ideas implemented
 Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+font used for html mention in XD wireframe file
+episode html slide with synopsis
+link to all the social media 
+link to shop 
+introduction of each memeber and their personal social media and their perosonal website
+
 wireframe=https://xd.adobe.com/view/8870e962-a6ea-401f-9661-7b5208968cc4-dd23/
 
 This project uses CSS,HTML and Javascript lanagauages
@@ -44,7 +42,7 @@ my fonts
 https://en.maisfontes.com/font-family/download-gloucester-mt-fonts
 shop link
 https://royalscandal.booth.pm/
-note to self i need to downnload the icons again but in different color for hover effect
+
 video links for background
 https://www.youtube.com/@Royal_Scandal
 
@@ -53,3 +51,6 @@ https://www.freepik.com/free-vector/dark-hexagonal-background-with-gradient-colo
 https://www.pinterest.com/pin/171559067047825158/
 
 https://kanon69.com/offvocal/
+
+Thanks for the sever to store my video
+-https://filedropper.com/
