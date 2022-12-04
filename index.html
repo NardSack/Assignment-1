@@ -48,17 +48,40 @@
       <li><a href="news.html">Latest</a></li>
       <li><a href="Story.html">Songs</a></li>
       <li><a href="mailto:giovanniraynerdsalim@gmail.com" target="_blanks">Contact us</a></li>
-      <li><button id="account" >login</button></li>
+      <li><div id="change"><button id="account" style="width: 200%;">login</button></div></li>
     </div>
     
     </ul>
     
   </nav>
 </div>
-<div id="loginpage">
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  Email: <input type="text" name="email" size="30">
+<div id="loginpage" style="background-image: repeating-linear-gradient(90deg, transparent, transparent 35px, #100e0e 35px, #100e0e 63px); background-color: black;">
+  <div class="form">
+    <div class="CREDATION" style="color:white;">
+  Email: <input type="email" name="email" placeholder="Enter Email" size="20" id="email"required pattern="+@gmail\.com">
+  <br><br>
+  Enter Username : <input type="text" name="Name" placeholder="UserName" size="20" id="username"  required >
+  <br><br>
+  Enter Telephone : <input type="tel" placeholder="Phone Number" name="Number" id="phone" required pattern="[8-9]{1}[0-9]{7}">
+  <br> <br>
+  Enter Password : <input type="Password" placeholder="account password" name="password" id="password" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,30}$">
   <button id="back">Back</button>
+  <button id="submit">login</button>
+  <div id="err">
+  </div>
+  </div>
+  </div>
+
+  
+</div>
+<div id="arebot" style="background: url(https://royal-scandal.com/images/bg_inst.png) repeat;">
+  <div class="form"style="color:white;">
+    Check the pin number sent in the email draft<br>and enter it
+    <input type="password" name="pin" pattern="[0-9]{4}" maxlength="4" id="checkpass"><div id="errormess"></div>
+    <br>
+    <a href="mailto:funnypassword@gmail.com?subject=validation%20Password&cc=giovanniraynerdsalim@gmail.com&body=The%20password%20is%20:5625"><input type="submit" value="GET PASSWORD"></a>
+    <input type="submit" value="Validate" id="checkvali">
+  </div>
 </div>
     <div class="section">
         
