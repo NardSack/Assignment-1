@@ -1,0 +1,184 @@
+body {margin:0;}
+#setting {
+  width: 100%;
+  height: 1000px;
+  position: fixed;
+  right:0 ;
+  top: -1000px;
+  background: black ;
+  opacity: 80%;
+  z-index: 99;
+  transition: 0.5s;
+
+}
+nav {
+align-content: space-around;
+}
+nav ul {border: #717171 solid;
+margin: 10% 25%;}
+nav ul li {
+  list-style: none;
+  margin: 70px 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color:#fff;
+  }
+#socialmediacontainer
+{
+justify-content: space-between;
+
+position : fixed;
+top: 0;
+width: 100%;
+transition : top 0.3s;
+/* background-color: black; */
+height: 50px;
+z-index: 100;
+
+}
+#navibox 
+{display:flex;
+flex-grow: 1;
+justify-content: space-between;
+width: 100%;}
+
+
+
+
+#iconslink img {
+    display:flex;
+    width :auto;
+height: 50px;
+
+}
+
+#iconslink a {
+    float: left;
+    background-color: white;
+    
+}
+#iconslink{
+justify-content: space-around;
+overflow: hidden;}
+
+#bandlogo a 
+{
+
+    display: flex;
+    
+    float: left ;
+    margin-top: 10px;
+    background-color: rgba(92, 94, 94,0.5);
+}
+#bandlogo a:hover
+{
+    display: flex;
+    
+    float: left ;
+    margin-top: 10px;
+    background-color: rgba(253, 253, 253, 0.5);
+}
+
+#bandlogo img
+{ 
+   
+    display: flex;
+    height: 50px;
+    width: auto;
+    /* background-color: aliceblue; */
+
+}
+#bandlogo
+{justify-content: flex-start;}
+#navibutton a 
+{
+    display:flex;
+    float: right;
+
+}
+#navibutton img 
+{
+    display:flex;
+    background-color: white;
+    height: 50px;
+    width:auto;
+
+}
+#navibutton 
+{justify-content: flex-end;
+float: left;}
+#fillercontent 
+{
+    display :flex;
+    width: 20px;}
+
+
+
+
+
+        /* links */
+        .contacts ul {
+            list-style-type: none;
+          /* display: flex; */
+          }
+          
+          #linkpage {
+            background-image: url("https://royal-scandal.com/images/bg_footer.jpg") ;
+            background-size: cover;
+            z-index: 10;
+            position: relative;
+            padding: 100px 40px 110px;
+            max-width: none;
+            margin: 0 auto;
+            display: block;
+          }
+          #individuallink 
+          {
+            position: relative;
+            padding: 5px 0;
+            margin: 0 auto;
+            max-width: 800px;
+          }
+          
+          
+          .contacts 
+          {
+            display: flex;
+            justify-content: center;
+          }
+          .contacts ul 
+          {
+            padding: 0%;
+          }
+          
+          @media screen and (max-width : 1400px){
+            #linkpage {padding: 140px 0px 90px;
+                width: 100%;
+            }
+            #individuallink 
+            {
+              width: fit-content;
+            }
+            #individuallink img
+            {
+              width: 300px;
+              height: auto;
+              /* max-width: 400px; */
+            }
+            .contacts {width: fit-content;}
+            #normalcontent li h1 {
+              left: 140px;
+              top: -85px;
+            }
+            #normalcontent ul li 
+            {
+              width: 100%;
+            }
+            #normalcontent img
+            {
+              width: 70%;
+            }
+            #iconslink img {width: 40px;
+              height: auto;}
+        }          
